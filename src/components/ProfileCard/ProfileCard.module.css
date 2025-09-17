@@ -1,0 +1,24 @@
+.profileCard {
+  display: inline-block;
+  padding: 20px 20px;
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.heading,
+.role {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.headshot {
+  display: block;
+  height: 200px;
+  width: auto;
+  border-radius: 100vw;
+}
