@@ -7,13 +7,13 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-.heading,
-.role {
+.heading {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .heading {
   margin-top: 0;
+  font-size: 2rem;
 }
 
 .headshot {
@@ -21,4 +21,22 @@
   height: 200px;
   width: auto;
   border-radius: 100vw;
+}
+
+.role {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.skillsList {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skill {
+  padding: 0;
+  font-weight: 200;
 }

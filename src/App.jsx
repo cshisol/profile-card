@@ -9,6 +9,7 @@ function App() {
         role="Developer"
         imageUrl="images/headshot.jpg"
         imageAltText="A headshot of woman with brown hair"
+        skills={["HTML", "CSS", "JavaScript"]}
       />
     </main>
   );

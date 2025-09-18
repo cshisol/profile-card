@@ -1,6 +1,6 @@
 import styles from "./ProfileCard.module.css";
 
-export function ProfileCard({ name, role, imageUrl, imageAltText }) {
+export function ProfileCard({ name, role, imageUrl, imageAltText, skills }) {
   return (
     <article
       className={styles.profileCard}
@@ -9,8 +9,13 @@ export function ProfileCard({ name, role, imageUrl, imageAltText }) {
       <h2 id={`${name}-card-heading`} className={styles.heading}>
         {name}
       </h2>
-      <p className={styles.role}>{role}</p>
       <img src={imageUrl} className={styles.headshot} alt={imageAltText} />
+      <p className={styles.role}>{role}</p>
+      <ul className={styles.skillsList}>
+        {skills.map((skill) => (
+          <li className={styles.skill}>{skill}</li>
+        ))}
+      </ul>
     </article>
   );
 }
