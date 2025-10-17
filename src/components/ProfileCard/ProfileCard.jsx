@@ -13,7 +13,9 @@ export function ProfileCard({ name, role, imageUrl, imageAltText, skills }) {
       <p className={styles.role}>{role}</p>
       <ul className={styles.skillsList}>
         {skills.map((skill) => (
-          <li className={styles.skill}>{skill}</li>
+          <li key={skill} className={styles.skill}>
+            {skill}
+          </li>
         ))}
       </ul>
     </article>
