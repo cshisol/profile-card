@@ -43,3 +43,6 @@
 1. Create another file within `components/ProfileCard` named `ProfileCard.module.css
 2. At the top of `ProfileCard.jsx` import the styles by adding `import styles from './ProfileCard.module.css`.
 3. Add the example styles (or create the styles yourself if you like) into the stylesheet. Apply the styles to the relevant markup elements by using `className={styles.<CLASS NAME>}`
+
+## Additional steps
+1. Add a second profile card to `main.jsx` with different props and photos.
